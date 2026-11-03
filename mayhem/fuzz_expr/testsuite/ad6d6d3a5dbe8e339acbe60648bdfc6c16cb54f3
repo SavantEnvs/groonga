@@ -1,0 +1,2 @@
+
+between(json_extract(value, 29), 10, 20)

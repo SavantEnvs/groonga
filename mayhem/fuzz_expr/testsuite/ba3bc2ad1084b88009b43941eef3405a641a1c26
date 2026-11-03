@@ -1,0 +1,2 @@
+
+true && index_column_df_ratio_between(index, 0.1, 0.9)

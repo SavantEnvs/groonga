@@ -1,0 +1,18 @@
+table_create Memos TABLE_HASH_KEY ShortText
+
+load --table Memos
+[
+{"_key": "Hello Groonga!"}
+]
+
+# To use cache
+#@sleep 1
+
+select Memos \
+  --filter 'true' \
+  --output_columns '_key,_score'
+
+select Memos \
+  --filter 'true' \
+  --output_columns '_key,_score' \
+  --command_version 2

@@ -1,0 +1,2 @@
+
+_key @^ "T" && fuzzy_search(_key, "To", {"max_distance": 2})

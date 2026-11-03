@@ -1,0 +1,5 @@
+[
+{"body": "Groonga is a full text search engine"},
+{"body": "Mroonga is a MySQL storage engine based on Groonga"},
+{"body": "Rroonga is a ruby bindings of Groonga"}
+]

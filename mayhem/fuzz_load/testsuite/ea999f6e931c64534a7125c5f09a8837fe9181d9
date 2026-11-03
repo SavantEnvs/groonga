@@ -1,0 +1,7 @@
+[
+{"_key": "Groonga is fast",          "tags": ["groonga", "full text search"]},
+{"_key": "Mroonga is fast",          "tags": ["mroonga", "mysql"]},
+{"_key": "Rroonga is fast",          "tags": ["rroonga", "ruby"]},
+{"_key": "Droonga is fast",          "tags": ["droonga", "ruby"]},
+{"_key": "Groonga is a HTTP server", "tags": ["groonga", "http"]}
+]

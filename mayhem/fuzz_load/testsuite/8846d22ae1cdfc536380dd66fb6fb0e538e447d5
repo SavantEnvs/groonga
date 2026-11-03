@@ -1,0 +1,12 @@
+[
+{"_key": "Groonga is fast!", "user": "alice", "date": "2014-11-16 00:00:00",
+ "tags": ["Groonga"]},
+{"_key": "Mroonga is fast!", "user": "alice", "date": "2014-11-16 00:00:00",
+ "tags": ["Mroonga", "Groonga"]},
+{"_key": "Groonga sticker!", "user": "alice", "date": "2014-11-16 00:00:00",
+ "tags": ["Groonga"]},
+{"_key": "Rroonga is fast!", "user": "alice", "date": "2014-11-17 00:00:00",
+ "tags": ["Rroonga", "Groonga"]},
+{"_key": "Groonga is good!", "user": "alice", "date": "2014-11-17 00:00:00",
+ "tags": ["Groonga"]}
+]

@@ -1,0 +1,1 @@
+geo_in_rectangle(point, "4x2", "1x3") > 0

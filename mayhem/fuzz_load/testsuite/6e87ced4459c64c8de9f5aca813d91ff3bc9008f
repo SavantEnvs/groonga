@@ -1,0 +1,10 @@
+[
+{
+  "_key": "super market",
+  "purchase": {"item": "apple", "price": 100}
+},
+{
+  "_key": "shoes shop",
+  "purchase": {"item": "sneakers", "price": 3000}
+}
+]

@@ -1,0 +1,3 @@
+[
+{"int8_value":-8, "uint8_value": 8, "int16_value":-16, "uint16_value": 16, "int32_value":-32, "uint32_value": 32, "int64_value":-64, "uint64_value": 64}
+]

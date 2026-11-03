@@ -1,0 +1,6 @@
+#@require-feature mecab
+
+tokenize \
+  'TokenMecab("use_reading", true)' \
+  '焼き肉と焼肉とyakiniku' \
+  --mode GET

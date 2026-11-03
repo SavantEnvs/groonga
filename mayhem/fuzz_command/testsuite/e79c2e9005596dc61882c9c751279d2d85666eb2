@@ -1,0 +1,9 @@
+#@omit "This isn't portable for non UTF-8 path environment."
+
+plugin_register "token_filters/stop_word"
+object_exist TokenFilterStopWord
+
+#@disable-logging
+#@eval plugin_unregister "#{plugins_directory}/token_filters/#{libtool_directory}stop_word.#{plugin_extension}"
+#@enable-logging
+object_exist TokenFilterStopWord

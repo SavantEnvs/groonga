@@ -1,0 +1,43 @@
+#@on-error omit
+plugin_register sharding
+#@on-error default
+
+table_create Logs_20150205 TABLE_NO_KEY
+column_create Logs_20150205 timestamp COLUMN_SCALAR Time
+column_create Logs_20150205 memo COLUMN_SCALAR ShortText
+
+table_create Timestamp_20150205 TABLE_PAT_KEY Time
+column_create Timestamp_20150205 index COLUMN_INDEX Logs_20150205 timestamp
+
+
+load --table Logs_20150205
+[
+{
+  "timestamp": "2015-02-05 13:49:00",
+       "memo": "2015-02-05 13:49:00"
+},
+{
+  "timestamp": "2015-02-05 13:50:00",
+       "memo": "2015-02-05 13:50:00"
+},
+{
+  "timestamp": "2015-02-05 13:51:00",
+       "memo": "2015-02-05 13:51:00"
+},
+{
+  "timestamp": "2015-02-05 13:52:00",
+       "memo": "2015-02-05 13:52:00"
+}
+]
+
+#@add-important-log-levels debug
+#@add-ignore-log-pattern /\A\[io\]/
+log_level --level debug
+#@collect-query-log true
+logical_range_filter Logs timestamp \
+  --limit 1 \
+  --filter 'between(timestamp, "2015-02-05 13:50:00", "include", "2015-02-05 13:52:00", "exclude")'
+#@collect-query-log false
+log_level --level notice
+#@remove-ignore-log-pattern /\A\[io\]/
+#@remove-important-log-levels debug

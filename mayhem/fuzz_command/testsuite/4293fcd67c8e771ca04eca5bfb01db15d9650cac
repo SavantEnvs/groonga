@@ -1,0 +1,11 @@
+table_create Users TABLE_NO_KEY
+column_create Users name COLUMN_SCALAR ShortText
+
+dump
+
+#@add-important-log-levels notice
+table_remove Users
+#@remove-important-log-levels notice
+
+#@read-timeout 0.1
+dump

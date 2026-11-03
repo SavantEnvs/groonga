@@ -1,0 +1,1 @@
+query("value", "a OR b") && (true || true)

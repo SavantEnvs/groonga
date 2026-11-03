@@ -1,0 +1,10 @@
+#@require-feature mecab
+
+#$GRN_ENABLE_REFERENCE_COUNT=no
+
+table_create Data TABLE_NO_KEY
+column_create Data number COLUMN_SCALAR Int64
+
+object_list
+
+column_list Data

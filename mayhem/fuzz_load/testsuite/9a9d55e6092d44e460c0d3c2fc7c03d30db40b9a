@@ -1,0 +1,15 @@
+[
+{"content": "2 3 a"},
+{"content": "2 c a"},
+{"content": "2 c x a"},
+{"content": "2 c x x a"},
+{"content": "2 x 3 a"},
+{"content": "2 x c a"},
+{"content": "2 x c x a"},
+{"content": "2 x c x x a"},
+{"content": "2 x x 3 a"},
+{"content": "2 x x c a"},
+{"content": "2 x x c x a"},
+{"content": "2 x x c x x a"},
+{"content": "2 x x c x x x a"}
+]

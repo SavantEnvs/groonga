@@ -1,0 +1,17 @@
+#$GRN_QUERY_EXPANDER_TSV_SYNONYMS_FILE=#{db_directory}/synonyms.tsv
+#@copy-path fixture/query_expander/tsv/expand.tsv #{db_directory}/synonyms.tsv
+plugin_register "query_expanders/tsv"
+
+table_create Memos TABLE_NO_KEY
+column_create Memos content COLUMN_SCALAR ShortText
+
+load --table Memos
+[
+["content"],
+["Start Rroonga!"],
+["Start Ruby and Groonga!"],
+["Start Ruby and Mroonga!"]
+]
+
+select --table Memos --query_expander QueryExpanderTSV \
+  --match_columns content --query rroonga

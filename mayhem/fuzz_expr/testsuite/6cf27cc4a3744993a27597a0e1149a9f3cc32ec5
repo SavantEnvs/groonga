@@ -1,0 +1,2 @@
+
+query("name", "r name:Ruby", {"max_n_enough_filtered_records": 10})

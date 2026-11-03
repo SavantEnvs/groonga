@@ -1,0 +1,1 @@
+query("name * 10", "ali")

@@ -1,0 +1,8 @@
+[
+{"_key":"User01", "immediate":false},
+{"_key":"User02", "immediate":false},
+{"_key":"User03", "immediate":false},
+{"_key":"U1", "immediate":true},
+{"_key":"U2", "immediate":true},
+{"_key":"User04", "immediate":false}
+]

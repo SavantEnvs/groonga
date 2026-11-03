@@ -1,0 +1,4 @@
+[
+{"_key": "PGroonga", "expansions": ["PGroonga", "\"Groonga PostgreSQL\""]},
+{"_key": "Rroonga",  "expansions": ["Rroonga", "\"Ruby and Groonga\""]}
+]

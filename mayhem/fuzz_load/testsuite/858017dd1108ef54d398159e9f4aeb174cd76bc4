@@ -1,0 +1,8 @@
+[
+{"_key": "Alice's Adventures in Wonderland",
+ "entries": ["alice:2013-03-12", "alice:2013-03-13"]},
+{"_key": "Bob memo",
+ "entries": ["bob:2013-03-12", "bob:2013-03-13"]},
+{"_key": "Carlog",
+ "entries": ["calros:2013-03-12", "calros:2013-03-13"]}
+]

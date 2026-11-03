@@ -1,0 +1,11 @@
+[
+{"_key": "Alice",
+ "tags_by_me": ["beginner", "active"],
+ "tags_by_others": ["expert", "active"]},
+{"_key": "Bob",
+ "tags_by_me": ["expert", "passive"],
+ "tags_by_others": ["beginner", "passive"]},
+{"_key": "Chris",
+ "tags_by_me": ["beginner", "passive"],
+ "tags_by_others": ["active"]}
+]

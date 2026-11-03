@@ -1,0 +1,2 @@
+
+all_records() && in_values(tag, "groonga", "mroonga", "droonga")

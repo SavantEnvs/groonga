@@ -1,0 +1,1 @@
+score._key < 2 && score._key >= -1

@@ -1,0 +1,4 @@
+[
+{"data": "{\"embedded\": \"X\"}"},
+{"data": "{\"not embedded\": \"hello\"}"}
+]

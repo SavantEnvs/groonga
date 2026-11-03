@@ -1,0 +1,1 @@
+(_score = _score + (vector_size(categories) > 0))

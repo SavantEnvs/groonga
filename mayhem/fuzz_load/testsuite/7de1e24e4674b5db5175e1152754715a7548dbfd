@@ -1,0 +1,28 @@
+[
+{
+  "_key": "Groonga",
+  "tags": {
+    "groonga": 100
+  }
+},
+{
+  "_key": "Mroonga",
+  "tags": {
+    "mroonga": 100,
+    "groonga": 50
+  }
+},
+{
+  "_key": "Rroonga",
+  "tags": {
+    "ruby": 100,
+    "groonga": 10
+  }
+},
+{
+  "_key": "TST",
+  "tags": {
+    "mozilla": 100
+  }
+}
+]

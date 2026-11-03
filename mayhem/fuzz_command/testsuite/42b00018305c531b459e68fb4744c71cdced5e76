@@ -1,0 +1,9 @@
+#@require-feature mecab
+
+#$GRN_ENABLE_REFERENCE_COUNT=no
+
+table_create Data TABLE_NO_KEY
+
+object_list
+
+table_list

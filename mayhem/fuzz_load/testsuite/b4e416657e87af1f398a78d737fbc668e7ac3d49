@@ -1,0 +1,5 @@
+[
+{"_key": "groonga", "categories": {"full-text-search": 100}},
+{"_key": "mroonga", "categories": {"mysql": 100, "full-text-search": 80}},
+{"_key": "ruby", "categories": {"language": 100}}
+]

@@ -1,0 +1,8 @@
+[
+{"_key": "Alice",
+ "tags": ["beginner", "active"]},
+{"_key": "Bob",
+ "tags": ["expert", "passive"]},
+{"_key": "Chris",
+ "tags": ["beginner", "passive"]}
+]

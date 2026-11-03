@@ -1,0 +1,10 @@
+[
+{
+  "_key": "super market",
+  "purchases": "[\"super market-1\", \"super market-2\", \"super market-3\"]"
+},
+{
+  "_key": "shoes shop",
+  "purchases": "[\"shoes shop-1\"]"
+}
+]

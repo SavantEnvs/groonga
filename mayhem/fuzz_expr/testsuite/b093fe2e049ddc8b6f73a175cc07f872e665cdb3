@@ -1,0 +1,2 @@
+
+query_parallel_or("_key", "Alice", "Bob")

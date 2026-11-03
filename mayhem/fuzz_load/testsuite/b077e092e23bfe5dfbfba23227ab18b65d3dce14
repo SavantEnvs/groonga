@@ -1,0 +1,12 @@
+[
+{"_key":    "The first post!",
+ "content": "Welcome! This is my first post!"},
+{"_key":    "Groonga",
+ "content": "I started to use groonga. It's very fast!"},
+{"_key":    "Mroonga",
+ "content": "I also started to use mroonga. It's also very fast! Really fast!"},
+{"_key":    "Good-bye Senna",
+ "content": "I migrated all Senna system!"},
+{"_key":    "Good-bye Tritonn",
+ "content": "I also migrated all Tritonn system!"}
+]

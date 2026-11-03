@@ -1,0 +1,5 @@
+[
+{"_key": "Groonga", "tags": {"Groonga": 100.5}},
+{"_key": "Rroonga", "tags": {"Groonga": 10.5, "Ruby": 90.5}},
+{"_key": "Nothing"}
+]

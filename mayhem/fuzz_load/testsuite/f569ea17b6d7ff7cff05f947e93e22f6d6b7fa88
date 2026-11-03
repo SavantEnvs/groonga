@@ -1,0 +1,10 @@
+[
+{"_key": "Groonga1", "tag": "Groonga", "user": "user1", "priority": 10,
+ "created_at": "2015/07/09 00:00:00"},
+{"_key": "Groonga2", "tag": "Groonga", "user": "user1", "priority": 20,
+ "created_at": "2015/07/09 01:00:00"},
+{"_key": "Groonga3", "tag": "Groonga", "user": "user1", "priority": 60,
+ "created_at": "2015/07/09 02:00:00"},
+{"_key": "Groonga4", "tag": "Groonga", "user": "user2", "priority": 61,
+ "created_at": "2015/07/09 03:00:00"}
+]

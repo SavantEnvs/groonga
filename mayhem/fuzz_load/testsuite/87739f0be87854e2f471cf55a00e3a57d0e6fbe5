@@ -1,0 +1,6 @@
+[
+{"_key": "alice",  "tags": ["student", "programming", "search"]},
+{"_key": "bob",    "tags": ["worker", "programming"]},
+{"_key": "carlos", "tags": ["programming"]},
+{"_key": "david",  "tags": ["search", "worker"]}
+]

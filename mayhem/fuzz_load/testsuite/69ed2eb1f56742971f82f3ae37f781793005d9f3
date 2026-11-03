@@ -1,0 +1,5 @@
+[
+{"_key": "alice",  "blogs": ["Alice's Adventures in Wonderland"]},
+{"_key": "bob",    "blogs": ["Bob memo"]},
+{"_key": "calros", "blogs": ["Carlog"]}
+]

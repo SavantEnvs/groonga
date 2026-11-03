@@ -1,0 +1,6 @@
+[
+{"_key": "alice1", "nickname": "My Alice", "age": 8},
+{"_key": "alice2", "first_name": "My", "last_name": "Alice", "age": 8},
+{"_key": "alice3", "nickname": "My Alice", "age": 10},
+{"_key": "bob", "nickname": "Bob", "age": 20}
+]

@@ -1,0 +1,5 @@
+[
+{"_key": "/home/alice/.zshrc",                  "owner": "Alice"},
+{"_key": "/home/bob/.bashrc",                   "owner": "Bob"},
+{"_key": "/home/calros/public_html/index.html", "owner": "Carlos"}
+]

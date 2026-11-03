@@ -1,0 +1,1 @@
+query("name", "r name:Ruby", {"enough_filtered_ratio": 1.0})

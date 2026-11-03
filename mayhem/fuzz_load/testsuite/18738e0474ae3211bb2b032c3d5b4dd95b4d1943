@@ -1,0 +1,5 @@
+[
+{"_key": "abc",    "tags": ["A", "B", "C"]},
+{"_key": "ABC",    "tags": ["B", "C", "D"]},
+{"_key": "abcdef", "tags": ["F"]}
+]

@@ -1,0 +1,1 @@
+_key @^ "T" && fuzzy_search(_key, "To")

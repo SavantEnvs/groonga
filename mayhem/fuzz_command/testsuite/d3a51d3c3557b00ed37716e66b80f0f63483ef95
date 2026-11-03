@@ -1,0 +1,5 @@
+#@require-feature mecab
+
+tokenize \
+  'TokenMecab("include_form", true)' \
+  '行きました'

@@ -1,0 +1,5 @@
+[
+{"_key": "alice", "age": 12},
+{"_key": "bob",   "age": 29},
+{"_key": "chris", "age": 3}
+]

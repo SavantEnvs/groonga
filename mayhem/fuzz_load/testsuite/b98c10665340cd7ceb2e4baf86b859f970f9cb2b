@@ -1,0 +1,5 @@
+[
+{"_key": "alice1", "nickname": "My Alice"},
+{"_key": "alice2", "first_name": "My", "last_name": "Alice"},
+{"_key": "bob", "nickname": "Bob"}
+]

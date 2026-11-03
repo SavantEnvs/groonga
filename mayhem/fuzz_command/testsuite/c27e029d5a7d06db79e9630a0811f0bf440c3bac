@@ -1,0 +1,10 @@
+table_create Entries TABLE_HASH_KEY ShortText
+
+load --table Entries
+[
+{"_key": "a"}
+]
+
+select Entries \
+  --output_columns '_id, ["A", "B"] + ["C", "D"]' \
+ --command_version 3

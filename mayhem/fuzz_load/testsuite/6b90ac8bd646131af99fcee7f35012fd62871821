@@ -1,0 +1,8 @@
+[
+{"item": "item2", "user": "user3", "price": 333},
+{"item": "item1", "user": "user2", "price": 666},
+{"item": "item3", "user": "user1", "price": 222},
+{"item": "item1", "user": "user2", "price": 777},
+{"item": "item2", "user": "user3", "price": 111},
+{"item": "item1", "user": "user2", "price": 999}
+]

@@ -1,0 +1,8 @@
+[
+{"_key": "Book",  "price": 1000, "quantity": 100, "tag": "A"},
+{"_key": "Note",  "price": 1000, "quantity": 10,  "tag": "B"},
+{"_key": "Box",   "price": 500,  "quantity": 15,  "tag": "B"},
+{"_key": "Pen",   "price": 500,  "quantity": 12,  "tag": "A"},
+{"_key": "Food",  "price": 500,  "quantity": 111, "tag": "C"},
+{"_key": "Drink", "price": 300,  "quantity": 22,  "tag": "B"}
+]

@@ -1,0 +1,2 @@
+
+fuzzy_search(_key, "Toym", {"with_transposition": true})

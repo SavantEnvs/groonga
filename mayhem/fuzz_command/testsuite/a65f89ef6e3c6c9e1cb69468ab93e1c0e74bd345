@@ -1,0 +1,8 @@
+table_create Readings TABLE_PAT_KEY ShortText --normalizer NormalizerAuto
+
+load --table Readings
+[
+{"_key": "グルンガ"}
+]
+
+select Readings --filter 'prefix_rk_search(_key, "グル")'

@@ -1,0 +1,34 @@
+table_create Entries TABLE_NO_KEY
+column_create Entries content COLUMN_SCALAR Text
+
+table_create Terms TABLE_PAT_KEY ShortText \
+  --default_tokenizer 'TokenNgram("unify_alphabet", false, \
+                                  "unify_digit", false)' \
+  --normalizer NormalizerNFKC121
+column_create Terms entries_content COLUMN_INDEX|WITH_POSITION Entries content
+
+load --table Entries
+[
+{"content": "abc12XYZdef"},
+{"content": "defXYZabc12"},
+{"content": "abebcdXYZdef"},
+{"content": "abcdef"},
+{"content": "defabc"},
+{"content": "defXYZabc"},
+{"content": "XYZabc"},
+{"content": "abc12345678901XYZdef"},
+{"content": "abc12345678901XYdef"},
+{"content": "def45678901XYabc123"},
+{"content": "abc12345678901def"},
+{"content": "def12345678901abc"},
+{"content": "12345678901XYZdef"},
+{"content": "1234567890XYZdef"},
+{"content": "123def"},
+{"content": "def123"},
+{"content": "abc1de2def"}
+]
+
+select Entries \
+  --match_columns content \
+  --query '*ONPP"(abc 123) (def)"' \
+  --output_columns '_score, content'

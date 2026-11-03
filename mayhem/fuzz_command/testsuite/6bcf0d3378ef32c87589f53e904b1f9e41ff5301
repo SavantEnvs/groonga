@@ -1,0 +1,6 @@
+table_create Tags TABLE_HASH_KEY ShortText \
+  --normalizer 'NormalizerNFKC100("unify_kana", true)'
+dump
+
+truncate Tags
+dump

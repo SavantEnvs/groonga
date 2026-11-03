@@ -1,0 +1,14 @@
+[
+{
+  "_key": "Groonga is fast",
+  "tags": ["groonga"]
+},
+{
+  "_key": "Mroonga is also fast",
+  "tags": ["mroonga", "groonga"]
+},
+{
+  "_key": "Ruby is an object oriented script language",
+  "tags": ["ruby"]
+}
+]

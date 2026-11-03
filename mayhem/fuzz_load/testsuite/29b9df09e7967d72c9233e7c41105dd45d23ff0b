@@ -1,0 +1,9 @@
+[
+{
+  "_key": "Groonga is fast",
+  "tags": [
+    {"groonga": 100},
+    {"mroonga": 200}
+  ]
+}
+]

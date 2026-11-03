@@ -1,0 +1,8 @@
+[
+{"_key": "item1", "price": 100, "type": "C"},
+{"_key": "item2", "price": 200, "type": "A"},
+{"_key": "item3", "price": 200, "type": "A"},
+{"_key": "item4", "price": 300, "type": "B"},
+{"_key": "item5", "price": 300, "type": "C"},
+{"_key": "item6", "price": 400, "type": "A"}
+]

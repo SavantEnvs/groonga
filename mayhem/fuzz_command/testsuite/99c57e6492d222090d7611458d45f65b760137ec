@@ -1,0 +1,9 @@
+table_create LandMarks TABLE_NO_KEY
+column_create LandMarks location COLUMN_SCALAR WGS84GeoPoint
+
+load --table LandMarks
+[
+{"location": "-324000000x502419287"}
+]
+
+select LandMarks

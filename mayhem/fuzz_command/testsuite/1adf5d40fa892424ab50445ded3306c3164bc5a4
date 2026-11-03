@@ -1,0 +1,15 @@
+table_create Users TABLE_PAT_KEY ShortText
+column_create Users name COLUMN_SCALAR ShortText
+
+table_create Terms TABLE_PAT_KEY ShortText \
+  --default_tokenizer TokenBigram \
+  --normalizer NormalizerAuto
+column_create Terms users_name COLUMN_INDEX|WITH_POSITION Users name
+
+dump
+
+#@add-important-log-levels notice
+column_remove Users name
+#@remove-important-log-levels notice
+
+dump

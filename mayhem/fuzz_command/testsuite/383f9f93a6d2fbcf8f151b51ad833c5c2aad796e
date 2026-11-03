@@ -1,0 +1,9 @@
+table_create Users TABLE_HASH_KEY ShortText Int32
+
+load --table Users
+[
+{"_key": "alice"},
+{"_key": "bob"}
+]
+
+object_inspect Users

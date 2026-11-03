@@ -1,0 +1,12 @@
+[
+{
+  "_key": "2015-02-05 00:00:00",
+  "int32": -2900,
+  "int32_vector": [100, -200, 300],
+  "int64": 4294967298,
+  "reference_short_text": "Hello 2015-02-05",
+  "reference_short_text_vector": [],
+  "time": "2015-02-05 00:00:00",
+  "uint32": 2900
+}
+]

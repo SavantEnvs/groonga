@@ -1,0 +1,6 @@
+[
+{"user": "Alice", "tag": "B"},
+{"user": "Alice", "tag": "A"},
+{"user": "Alice", "tag": "B"},
+{"user": "Bob",   "tag": "A"}
+]

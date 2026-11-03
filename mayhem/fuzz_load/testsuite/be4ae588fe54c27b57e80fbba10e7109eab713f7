@@ -1,0 +1,11 @@
+[
+{"_key": "Groonga1", "tag": "Groonga", "priority": 10},
+{"_key": "Groonga2", "tag": "Groonga", "priority": 20},
+{"_key": "Groonga3", "tag": "Groonga", "priority": 60},
+{"_key": "Mroonga1", "tag": "Mroonga", "priority": 61},
+{"_key": "Mroonga2", "tag": "Mroonga", "priority": 24},
+{"_key": "Mroonga3", "tag": "Mroonga", "priority": 8},
+{"_key": "Rroonga1", "tag": "Rroonga", "priority": 3},
+{"_key": "Rroonga2", "tag": "Rroonga", "priority": -9},
+{"_key": "Rroonga3", "tag": "Rroonga", "priority": 0}
+]

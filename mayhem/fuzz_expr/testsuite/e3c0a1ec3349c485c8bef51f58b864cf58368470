@@ -1,0 +1,2 @@
+
+query("name", "Groonga Mroonga", {"default_operator": 29})

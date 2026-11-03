@@ -1,0 +1,1 @@
+fuzzy_search(_key, "とむ", {"max_distance": 5, "prefix_length": 1})

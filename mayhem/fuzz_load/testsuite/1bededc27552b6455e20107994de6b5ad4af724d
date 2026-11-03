@@ -1,0 +1,6 @@
+[
+{"_key": "Groonga is fast", "tags": ["Groonga"]},
+{"_key": "Mroonga is fast", "tags": ["Groonga", "Mroonga", "MySQL"]},
+{"_key": "Rroonga is fast", "tags": ["Groonga", "Rroonga", "Ruby"]},
+{"_key": "Ruby is fan",     "tags": ["Ruby"]}
+]

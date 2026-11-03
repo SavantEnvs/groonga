@@ -1,0 +1,31 @@
+table_create Tags TABLE_HASH_KEY ShortText
+
+table_create UserDataJP TABLE_HASH_KEY ShortText
+column_create UserDataJP tags COLUMN_VECTOR Tags
+
+table_create UserDataUS TABLE_HASH_KEY ShortText
+column_create UserDataUS tags COLUMN_VECTOR Tags
+
+table_create Users TABLE_HASH_KEY ShortText
+column_create Users jp COLUMN_SCALAR UserDataJP
+column_create Users us COLUMN_SCALAR UserDataUS
+
+load --table UserDataJP
+[
+{"_key": "alice", "tags": ["A", "B"]}
+]
+
+load --table UserDataUS
+[
+{"_key": "bob",   "tags": ["A", "C"]}
+]
+
+load --table Users
+[
+{"_key": "alice", "jp": "alice"},
+{"_key": "bob",   "us": "bob"}
+]
+
+select Users \
+  --drilldowns[tag].keys "jp.tags || us.tags" \
+  --command_version 3

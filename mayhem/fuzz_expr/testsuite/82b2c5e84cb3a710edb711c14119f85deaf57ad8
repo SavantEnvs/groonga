@@ -1,0 +1,1 @@
+scorer_tf_at_most(Lexicon.memo_index, 2.0)

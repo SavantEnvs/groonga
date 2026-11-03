@@ -1,0 +1,22 @@
+table_create Records TABLE_NO_KEY
+column_create Records value COLUMN_SCALAR Int8
+
+load --table Records
+[
+{"value": 1}
+]
+
+# To use cache
+#@sleep 1
+
+#@collect-query-log true
+#@disable-logging
+select Records --output_columns 'now()'
+#@enable-logging
+
+#@sleep 1
+
+#@disable-logging
+select Records --output_columns 'now()'
+#@enable-logging
+#@collect-query-log false

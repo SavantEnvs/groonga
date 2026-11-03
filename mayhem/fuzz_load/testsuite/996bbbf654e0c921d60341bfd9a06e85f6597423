@@ -1,0 +1,11 @@
+[
+{"_key": "Groonga1", "tag": "Groonga", "scores": [10, 29]},
+{"_key": "Groonga2", "tag": "Groonga", "scores": [20]},
+{"_key": "Groonga3", "tag": "Groonga", "scores": [60, 71]},
+{"_key": "Mroonga1", "tag": "Mroonga", "scores": [61, 62, 63]},
+{"_key": "Mroonga2", "tag": "Mroonga", "scores": [24, 20, 16]},
+{"_key": "Mroonga3", "tag": "Mroonga", "scores": [8, 5, 2]},
+{"_key": "Rroonga1", "tag": "Rroonga", "scores": [3]},
+{"_key": "Rroonga2", "tag": "Rroonga", "scores": [-9, 0, 9]},
+{"_key": "Rroonga3", "tag": "Rroonga", "scores": [0]}
+]

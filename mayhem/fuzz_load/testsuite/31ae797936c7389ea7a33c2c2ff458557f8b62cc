@@ -1,0 +1,7 @@
+[
+{"_key": "Groonga is fast!", "tags": ["Groonga"]},
+{"_key": "Mroonga is fast!", "tags": ["Mroonga", "Groonga"]},
+{"_key": "Groonga sticker!", "tags": ["Groonga"]},
+{"_key": "Rroonga is fast!", "tags": ["Rroonga", "Groonga"]},
+{"_key": "Groonga is good!", "tags": ["Groonga"]}
+]

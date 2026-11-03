@@ -1,0 +1,4 @@
+[
+{"_key": "groonga", "label": "Groonga", "weight": 10},
+{"_key": "mroonga", "label": "Mroonga", "weight": 5}
+]
